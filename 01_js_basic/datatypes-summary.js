@@ -1,4 +1,4 @@
-// Primitive DT
+// Primitive DT (Stack Memory)
 
 // String
 let str = "Any type of data wrap to single or double quotes";
@@ -22,7 +22,7 @@ console.table(typeof (array));
 // https://262.ecma-international.org/5.1/#sec-11.4.3
 
 
-// Non-Primitive / Refrence DT
+// Non-Primitive / Refrence DT (Heap Memory)
 // Array [], Object (), Function (){}
 
 let arr = ["Hafiz", 123, a = () => { }, "Abdul Munnan", 123.321];
